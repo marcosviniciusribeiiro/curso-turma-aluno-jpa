@@ -24,12 +24,15 @@ public class Turma {
     public Long getId() {
         return id;
     }
+
     public String getNome() {
         return nome;
     }
+
     public List<Aluno> getAlunos() {
         return alunos;
     }
+
     public Curso getCurso() {
         return curso;
     }
@@ -37,12 +40,15 @@ public class Turma {
     public void setId(Long id) {
         this.id = id;
     }
+
     public void setNome(String nome) {
         this.nome = nome;
     }
+
     public void setAlunos(List<Aluno> alunos) {
         this.alunos = alunos;
     }
+
     public void setCurso(Curso curso) {
         this.curso = curso;
     }
