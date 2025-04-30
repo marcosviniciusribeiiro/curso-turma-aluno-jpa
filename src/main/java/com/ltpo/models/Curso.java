@@ -22,9 +22,11 @@ public class Curso {
     public Long getId(){
         return id;
     }
+
     public String getNome(){
         return nome;
     }
+
     public List<Turma> getTurmas() {
         return turmas;
     }
@@ -35,6 +37,7 @@ public class Curso {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
     public void setTurmas(List<Turma> turmas) {
         this.turmas = turmas;
     }
