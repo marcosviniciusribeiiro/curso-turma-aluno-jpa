@@ -31,9 +31,11 @@ public class Aluno {
     public void setId(Long id) {
         this.id = id;
     }
+
     public void setNome(String nome) {
         this.nome = nome;
     }
+
     public void setTurma(Turma turma) {
         this.turma = turma;
     }
